@@ -8,13 +8,16 @@ The goal is to compare the boroughs and neighbourhoods of London with the boroug
 ## Acknowledgments
 This repo uses the [Foursquare](https://de.foursquare.com/) API to get information about top venues of different boroughs of Frankfurt.  
 I also used [Folium](https://python-visualization.github.io/folium/) to create an interactive map of Frankfurt and [geopy](https://geopy.readthedocs.io/en/stable/) to get coordinates.  
+
 My thanks to [Alex Aklson](https://github.com/aklson-datascientist) for leading the [‘Applied Data Science’-Course](https://www.coursera.org/specializations/applied-data-science) and for teaching different tools and techniques to make this exciting work possible!  
 
 ## Approach
 ### Prepare Data - ‘Data Preparing.iynb’
 For the London and Frankfurt data there exist Wikipedia pages that got a table of the bouroughs.
+
 <https://en.wikipedia.org/wiki/List_of_London_boroughs>  
 <https://de.wikipedia.org/wiki/Liste_der_Stadtteile_von_Frankfurt_am_Main>  
+
 So I am going to scrape the page to get the data and  I have to structure the data. Then I am going to add latitude and longitude using geopy and I will export the datasets as csv.  
 
 ###  Data Analysis – ‘Data Analyses.ipynb’
