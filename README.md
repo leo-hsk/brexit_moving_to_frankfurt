@@ -4,7 +4,7 @@ Since Great Britain left the European Union on the 31st of January this year, th
  The goal is to compare the boroughs and neighbourhoods of London with the boroughs and neighbourhoods from Frankfurt, using data science techniques and machine learning. The employers and employees can use the information to find places in Frankfurt that are quite similar (e.g. same diversity of venues) to their home in London.
 
 ## Acknowledgments
-This repo uses the Foursquare API to get information about top venues of different boroughs of Frankfurt.
+This repo uses the Foursquare API to get information about top venues of different boroughs of Frankfurt.\n
 I also used Folium to create an interactive map of Frankfurt and geopy to get coordinates.
 My thanks to Alex Aklson for leading the ‘Applied Data Science’-Course and for teaching different tools and techniques to make this exciting work possible!
 
